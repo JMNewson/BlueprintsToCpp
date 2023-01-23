@@ -45,7 +45,7 @@
 *.bak
 
 # Asset files
-Content/*
+Content/AdvancedVillagePack/*
 
 # Precompiled Assets
 SourceArt/**/*.png
