@@ -21,6 +21,14 @@ public:
 	void RefreshVisiblity();
 
 protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+
+private:
+	UFUNCTION()
+	void QuestUpdated(int32 Index);
+
+protected:
 	UFUNCTION(BlueprintPure, BlueprintImplementableEvent)
 	AQuestManager* GetQuestManager() const;
 
